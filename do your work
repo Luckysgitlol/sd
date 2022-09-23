@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>School Links</title>
+        
+        <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Google_Classroom_icon.svg/1200px-Google_Classroom_icon.svg.png"
+              
+         {
+    box-sizing: border-box;
+}      
+    </head>
+    
+    <body>
+        <h1 style="color:orange;">Links For School 👍</h1>
+        
+       
+
+        
+       <p>Find you link and go do your work! Remember, always be doing your work and never be playing games. And remember! Always 'Do your work' :) </p>
+           
+       
+        
+                <button>
+        <img src="https://c.tenor.com/GYl8eU6xAacAAAAC/emoji-thumbs-up.gif" width= 500 height=400>
+         
+                    
+        <img src="https://learnenglishteens.britishcouncil.org/sites/teens/files/styles/article/public/istock_000010021264small.jpg?itok=AVFULQhI" width= 500 height=400>
+        
+        <img src="https://i.pinimg.com/originals/3d/c4/66/3dc46683ec3f6b87da2bb4b78fde993b.png" width= 300 height=400>
+                    
+     <input type="text" name="Specfiy Image Border" alt="text" id="homedepot">  
+     <input type="submit" name="Specfiy Image Border" onclick="pop()" alt="text">  
+    
+        </button>
+        
+         <button>     
+        <a href="https://classroom.google.com"> google classroom</a>  
+             
+        </button>
+        
+        <button>     
+        <a href="https://sites.google.com">google sites</a>  
+        </button>
+        
+         <button>     
+        <a href="https://docs.google.com/">google docs</a>  
+        </button>
+        
+        <button>     
+        <a href="https://drive.google.com/">google drive</a>  
+        </button>
+        
+        <button>     
+        <a href="https://translate.google.com/">google translate</a>  
+        </button>
+        
+         <button type="button" class="button">Click me!</button>
+        
+        <script>
+        let i = 1
+        function pop(){
+        
+        if (document.getElementById('homedepot').value == 'DBSB3272'){
+            window.location.href = './slow.html'
+        }else if (i > 3) alert('Do your work'); else alert (['??','uh','stop'][i - 1]); i++
+        }
+        </script>
+        
+
+
+ 
+    </body>
+        
+        
+        </html>
